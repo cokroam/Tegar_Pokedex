@@ -1,0 +1,47 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.5s, color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  &--default {
+    background-color: #212529;
+
+    &:hover {
+      background-color: #6e7379;
+    }
+  }
+
+  &--add-item {
+    background-color: #072ac8;
+    &:hover {
+      background-color: #7d8fe0;
+    }
+  }
+
+  &--remove-item {
+    background-color: #ef271b;
+    &:hover {
+      background-color: #e97c75;
+    }
+  }
+}

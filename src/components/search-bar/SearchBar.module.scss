@@ -1,0 +1,46 @@
+.search-bar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  height: 100px;
+  gap: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.13);
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar */
+}
+
+.search-bar__logo {
+  min-width: 100px;
+  max-width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar__logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212529;
+  margin: 0;
+}
+
+.search-bar__wrapper {
+  flex: 1; /* Membuat wrapper mengambil ruang yang tersisa */
+  min-width: 100px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar__input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar */
+}
